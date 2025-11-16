@@ -1,0 +1,16 @@
+{
+  "name": "BrainrotAI Prototype",
+  "short_name": "BrainrotAI",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "description": "BrainrotAI Prototyp für die Forschung.",
+  "icons": [
+    {
+      "src": "/brainman.png",
+      "sizes": "192x192", 
+      "type": "image/png"
+    }
+  ]
+}
