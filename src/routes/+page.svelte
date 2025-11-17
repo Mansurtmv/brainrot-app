@@ -1,8 +1,4 @@
 <!-- SCHRITT 1: Das Script MUSS immer ZUERST kommen -->
-<script>
-  // Importiere deine neue Komponente
-  import PipelineTest from '$lib/components/PipelineTest.svelte';
-</script>
 
 <!-- SCHRITT 2: Dein HTML-Inhalt -->
 <div class="container">
@@ -14,10 +10,12 @@
   <img src="/brainman.png" alt="Ein Mensch, der an einem Gehirn hackt">
 
   <p class="small-text">Bleib dran für mehr Updates!</p>
+  <a href="/sart-test" class="btn btn-primary mt-8">
+    Zum Prototyp-Test
+  </a>
 </div>
 
 <!-- HIER rufen wir die Komponente auf, damit sie UNTER dem Haupt-Container erscheint -->
-<PipelineTest />
 
 
 <!-- SCHRITT 3: Das CSS kommt immer ZULETZT -->
